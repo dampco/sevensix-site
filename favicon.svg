@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+<title>7/6 roundel - primary</title>
+  <defs><clipPath id="cr"><circle cx="100.0" cy="100.0" r="87.8"/></clipPath></defs>
+  <circle cx="100.0" cy="100.0" r="94.0" fill="none" stroke="#FF4D00" stroke-width="12.4"/>
+  <circle cx="100.0" cy="100.0" r="87.8" fill="#0C0B0A"/>
+  <path d="M68.4 196.5 L150.6 12.0 L131.6 3.5 L49.4 188.0 Z" fill="#FF4D00" clip-path="url(#cr)"/>
+  <text x="65.0" y="91.0" font-family="Barlow Condensed, Barlow Condensed ExtraBold, Helvetica Neue, Arial Narrow, sans-serif" font-size="68.0" font-weight="800" font-style="italic" text-anchor="middle" fill="#F5F0EA">7</text>
+  <text x="135.0" y="169.0" font-family="Barlow Condensed, Barlow Condensed ExtraBold, Helvetica Neue, Arial Narrow, sans-serif" font-size="68.0" font-weight="800" font-style="italic" text-anchor="middle" fill="#F5F0EA">6</text>
+</svg>
