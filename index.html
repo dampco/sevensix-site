@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="US market entry for material manufacturers. Brand, packaging, data sheets, samples, certified testing, demand and booth design.">
+<meta name="description" content="US market entry for material manufacturers. Brand, proof, selling and ongoing support for manufacturers landing in the United States.">
 <link rel="canonical" href="https://sevensixmarketing.com/">
 <meta property="og:title" content="7/6 Marketing">
 <meta property="og:description" content="You make it. We make America want it.">
@@ -37,35 +37,31 @@ a{color:inherit}
 
 /* ---------- nav ---------- */
 .nav{position:sticky;top:0;z-index:50;background:rgba(12,11,10,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.nav .shell{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-block:12px}
-.nav .brand{display:flex;align-items:center;gap:11px;text-decoration:none}
-.nav .brand svg{width:34px;height:34px}
-.nav .brand b{font-family:var(--con);font-weight:800;font-style:italic;font-size:1.32rem;letter-spacing:-.01em}
+.nav .shell{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-block:13px}
+.nav .brand{text-decoration:none;font-family:var(--con);font-weight:800;font-style:italic;font-size:1.42rem;letter-spacing:-.015em;line-height:1}
+.nav .brand i{font-style:normal;font-family:var(--ui);font-weight:600;font-size:.44rem;letter-spacing:.3em;display:block;margin-top:3px;text-indent:.3em;color:var(--Pdim)}
 .nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0}
 .nav ul a{text-decoration:none;color:var(--Pdim);font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;transition:color .18s}
 .nav ul a:hover{color:var(--O)}
 .nav .cta{background:var(--O);color:var(--ink);text-decoration:none;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:9px 16px;white-space:nowrap;transition:background .18s}
 .nav .cta:hover{background:var(--P)}
-@media(max-width:760px){.nav ul{display:none}}
+@media(max-width:820px){.nav ul{display:none}}
 
 /* ---------- hero ---------- */
 .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
-.hero .shell{padding-block:78px 68px;position:relative;z-index:2}
+.hero .shell{padding-block:76px 66px;position:relative;z-index:2}
 .hero .kicker{color:var(--O);margin:0 0 26px}
-.hero h1{
-  font-family:var(--ui);font-weight:800;
-  font-size:clamp(2.6rem,8.4vw,6.2rem);line-height:.92;letter-spacing:-.037em;
-  margin:0;max-width:15ch;text-wrap:balance;
-}
+.hero h1{font-weight:800;font-size:clamp(2.6rem,8.4vw,6.2rem);line-height:.92;letter-spacing:-.037em;margin:0;max-width:15ch;text-wrap:balance}
 .hero h1 em{font-style:normal;color:var(--O)}
-.hero p{max-width:46ch;color:var(--Pdim);font-size:clamp(1rem,2vw,1.19rem);margin:28px 0 0;line-height:1.5}
-.hero .acts{display:flex;gap:12px;flex-wrap:wrap;margin-top:38px}
+.hero .cred{max-width:48ch;font-size:clamp(1.02rem,2.1vw,1.26rem);margin:30px 0 0;line-height:1.45;font-weight:500}
+.hero .cred b{font-weight:700;color:#fff}
+.hero .sub{max-width:46ch;color:var(--Pdim);font-size:1.02rem;margin:14px 0 0}
+.hero .acts{display:flex;gap:12px;flex-wrap:wrap;margin-top:36px}
 .btn{display:inline-block;text-decoration:none;font-size:11.5px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;padding:14px 24px;transition:.18s}
 .btn-p{background:var(--O);color:var(--ink)}
 .btn-p:hover{background:var(--P)}
 .btn-s{border:1px solid var(--line);color:var(--P)}
 .btn-s:hover{border-color:var(--O);color:var(--O)}
-/* the slash, as a field device */
 .hero .slab{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}
 .hero .slab i{position:absolute;top:-30%;height:170%;width:15vw;background:var(--O);opacity:.09;transform:rotate(24deg)}
 .hero .slab i:nth-child(1){right:-2vw}
@@ -73,7 +69,7 @@ a{color:inherit}
 
 /* ---------- ticker ---------- */
 .ticker{background:var(--O);color:var(--ink);overflow:hidden;border-bottom:1px solid var(--ink)}
-.tk{display:flex;gap:0;width:max-content;animation:slide 34s linear infinite}
+.tk{display:flex;width:max-content;animation:slide 34s linear infinite}
 @keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .tk span{font-family:var(--con);font-weight:800;font-size:1.02rem;letter-spacing:.05em;text-transform:uppercase;padding:9px 20px;white-space:nowrap;display:flex;align-items:center;gap:20px}
 .tk span::after{content:"/";opacity:.5;font-style:italic}
@@ -82,14 +78,37 @@ a{color:inherit}
 /* ---------- sections ---------- */
 section{border-bottom:1px solid var(--line)}
 .sec-pad{padding-block:74px}
-.eyerow{display:flex;align-items:baseline;gap:14px;margin-bottom:30px}
+.eyerow{display:flex;align-items:baseline;gap:14px;margin-bottom:28px}
 .eyerow .n{color:var(--O);font-family:var(--con);font-weight:800;font-style:italic;font-size:1.6rem;line-height:1}
 .eyerow .l{color:var(--Pfaint)}
-h2{font-family:var(--ui);font-weight:800;font-size:clamp(1.8rem,4.4vw,3rem);line-height:1.02;letter-spacing:-.03em;margin:0 0 20px;max-width:19ch;text-wrap:balance}
+h2{font-weight:800;font-size:clamp(1.8rem,4.4vw,3rem);line-height:1.02;letter-spacing:-.03em;margin:0 0 20px;max-width:20ch;text-wrap:balance}
 .lead{max-width:58ch;color:var(--Pdim);font-size:1.08rem;margin:0}
 
+/* image slots */
+.shot{background:var(--ink2);border:1px solid var(--line);position:relative;overflow:hidden;aspect-ratio:21/9;margin:0}
+.shot img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.9) contrast(1.02)}
+.shot::after{content:"";position:absolute;inset:auto 0 0 0;height:46%;pointer-events:none;
+  background:linear-gradient(to top, rgba(12,11,10,.92), rgba(12,11,10,0))}
+.shot .temp{position:absolute;top:0;left:0;z-index:3;background:var(--O);color:var(--ink);
+  font-size:10px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;padding:7px 14px}
+.shot figcaption{position:absolute;left:18px;bottom:14px;z-index:3;font-size:9.5px;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--Pdim);max-width:80%}
+.shot.empty{display:flex}
+.shot.empty::before{content:"";position:absolute;top:-30%;right:12%;width:22%;height:160%;background:var(--O);opacity:.07;transform:rotate(24deg)}
+
+/* channel split */
+.chan{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:36px}
+.chan>div{background:var(--ink2);padding:24px 24px 26px}
+.chan .k{display:block;font-family:var(--con);font-weight:800;font-style:italic;font-size:1.5rem;color:var(--O);line-height:1;margin-bottom:10px}
+.chan h3{font-weight:800;font-size:1.18rem;letter-spacing:-.02em;margin:0 0 12px}
+.chan ul{margin:0;padding:0;list-style:none}
+.chan li{font-size:.95rem;color:var(--Pdim);padding:6px 0 6px 17px;position:relative;border-bottom:1px solid var(--ink3)}
+.chan li:last-child{border-bottom:none}
+.chan li::before{content:"";position:absolute;left:0;top:14px;width:8px;height:2px;background:var(--O)}
+@media(max-width:760px){.chan{grid-template-columns:1fr}}
+
 /* spec block */
-.spec{background:var(--ink2);border:1px solid var(--line);margin-top:38px}
+.spec{background:var(--ink2);border:1px solid var(--line);margin-top:20px}
 .spec-h{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;padding:14px 20px;border-bottom:1px solid var(--line);background:var(--ink3)}
 .spec-h b{font-family:var(--con);font-weight:800;font-size:1.1rem;letter-spacing:.02em;text-transform:uppercase}
 .spec-h span{color:var(--Pfaint)}
@@ -101,26 +120,71 @@ h2{font-family:var(--ui);font-weight:800;font-size:clamp(1.8rem,4.4vw,3rem);line
 .spec-f{padding:13px 20px;color:var(--Pfaint);font-size:.86rem}
 
 /* same-budget split */
-.split{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:38px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:36px}
 .sp{background:var(--ink2);padding:26px 24px 28px}
 .sp.accent{background:var(--O);color:var(--ink)}
 .sp-k{display:block;font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--Pfaint);margin-bottom:12px}
 .sp.accent .sp-k{color:rgba(12,11,10,.6)}
-.sp b{display:block;font-family:var(--ui);font-weight:800;font-size:clamp(1.5rem,3.4vw,2.1rem);letter-spacing:-.028em;line-height:1;margin-bottom:12px}
+.sp b{display:block;font-weight:800;font-size:clamp(1.5rem,3.4vw,2.1rem);letter-spacing:-.028em;line-height:1;margin-bottom:12px}
 .sp p{margin:0;font-size:.97rem;color:var(--Pdim);max-width:38ch}
 .sp.accent p{color:rgba(12,11,10,.92)}
 @media(max-width:700px){.split{grid-template-columns:1fr}}
 
-/* services */
-.svc{border-top:1px solid var(--line)}
-.svc-i{display:grid;grid-template-columns:76px 250px 1fr;gap:28px;padding-block:30px;border-bottom:1px solid var(--line);align-items:start;transition:background .2s}
-.svc-i:hover{background:var(--ink2)}
-.svc-i .num{font-family:var(--con);font-weight:800;font-style:italic;font-size:2.3rem;line-height:.9;color:var(--O)}
-.svc-i h3{font-family:var(--ui);font-weight:800;font-size:1.45rem;letter-spacing:-.022em;margin:0;line-height:1.05}
-.svc-i .body p{margin:0 0 12px;color:var(--Pdim);font-size:1rem;max-width:56ch}
-.svc-i .tags{display:flex;flex-wrap:wrap;gap:7px;margin:0;padding:0;list-style:none}
-.svc-i .tags li{font-size:10.5px;font-weight:600;letter-spacing:.11em;text-transform:uppercase;color:var(--Pfaint);border:1px solid var(--line);padding:4px 9px}
-@media(max-width:840px){.svc-i{grid-template-columns:52px 1fr;gap:16px}.svc-i .body{grid-column:2}}
+/* phases — scroll-driven horizontal track */
+.hs{position:relative}
+.hs-stick{position:sticky;top:0;height:100vh;padding-top:60px;overflow:hidden;display:flex;flex-direction:column;
+          border-top:1px solid var(--line);background:var(--ink)}
+.hs-bar-row{flex:none;padding:18px 24px 14px}
+.hs-bar-row .inner{max-width:1180px;margin:0 auto}
+.hs-idx{display:flex;gap:0;flex-wrap:wrap;margin-bottom:11px}
+.hs-idx button{background:none;border:none;padding:5px 20px 5px 0;cursor:pointer;font-family:var(--ui);
+  font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--Pfaint);
+  transition:color .25s}
+.hs-idx button.on{color:var(--O)}
+.hs-bar{height:2px;background:var(--line);position:relative;overflow:hidden}
+.hs-bar i{position:absolute;inset:0;background:var(--O);transform-origin:left;transform:scaleX(0)}
+.hs-rail{flex:1;display:flex;align-items:center;overflow:hidden;min-height:0;padding-block:6px 30px}
+.hs-track{display:flex;gap:20px;padding-inline:24px;align-items:stretch;will-change:transform}
+
+.ph{flex:0 0 clamp(300px,80vw,1120px);background:var(--ink2);border:1px solid var(--line);
+    padding:44px 46px 46px;display:grid;grid-template-columns:1.15fr 1fr;gap:54px;
+    min-height:min(540px,66vh);align-items:start;
+    transition:opacity .45s ease, filter .45s ease}
+.ph.dim{opacity:.34;filter:saturate(.5)}
+.ph.hot{background:var(--O);border-color:var(--O);color:var(--ink)}
+.ph-l{display:flex;flex-direction:column;justify-content:center}
+.ph .pn{font-family:var(--con);font-weight:800;font-style:italic;font-size:4.4rem;line-height:.8;color:var(--O);margin-bottom:18px}
+.ph.hot .pn{color:var(--ink)}
+.ph h3{font-weight:800;font-size:clamp(2rem,4.2vw,3.2rem);letter-spacing:-.03em;line-height:.98;margin:0 0 20px}
+.ph p{font-size:clamp(1rem,1.5vw,1.16rem);color:var(--Pdim);margin:0;max-width:44ch;line-height:1.5}
+.ph.hot p{color:rgba(12,11,10,.9)}
+.ph-r{display:flex;flex-direction:column;justify-content:center;border-left:1px solid var(--line);padding-left:36px}
+.ph.hot .ph-r{border-left-color:rgba(12,11,10,.25)}
+.ph-r .lbl{font-size:9.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--Pfaint);margin-bottom:14px}
+.ph.hot .ph-r .lbl{color:rgba(12,11,10,.6)}
+.ph-r ul{margin:0;padding:0;list-style:none}
+.ph-r li{font-size:.98rem;font-weight:500;padding:9px 0;border-bottom:1px solid var(--ink3);color:var(--P)}
+.ph.hot .ph-r li{border-bottom-color:rgba(12,11,10,.16);color:var(--ink)}
+.ph-r li:last-child{border-bottom:none}
+
+/* fallback: native swipe, no pin */
+.hs.off{height:auto!important}
+.hs.off .hs-stick{position:static;height:auto;overflow:visible}
+.hs.off .hs-rail{overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-block:18px 24px}
+.hs.off .hs-track{transform:none!important}
+.hs.off .ph{scroll-snap-align:start;flex:0 0 min(86vw,440px);min-height:0;grid-template-columns:1fr;gap:26px;padding:28px 26px 30px;opacity:1!important;filter:none!important}
+.hs.off .ph-r{border-left:none;border-top:1px solid var(--line);padding-left:0;padding-top:20px}
+.hs.off .hs-bar-row{padding-bottom:4px}
+.hs.off .hs-bar{display:none}
+.hs.off .hs-idx{margin-bottom:0}
+
+.hint{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--Pfaint);display:flex;align-items:center;gap:11px;margin-top:2px}
+.hint::after{content:"";flex:1;height:1px;background:var(--line)}
+
+/* film grain */
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:900;opacity:.04;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/></filter><rect width='180' height='180' filter='url(%23n)'/></svg>")}
+@media(prefers-reduced-motion:reduce){body::after{display:none}}
 
 /* light band */
 .light{background:var(--P);color:var(--ink);border-bottom:none}
@@ -146,31 +210,18 @@ h2{font-family:var(--ui);font-weight:800;font-size:clamp(1.8rem,4.4vw,3rem);line
 
 footer{background:var(--ink);padding-block:34px}
 footer .shell{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
-footer .fb{display:flex;align-items:center;gap:11px}
-footer .fb svg{width:30px;height:30px}
-footer .fb b{font-family:var(--con);font-weight:800;font-style:italic;font-size:1.12rem}
+footer .fb{font-family:var(--con);font-weight:800;font-style:italic;font-size:1.2rem}
 footer small{color:var(--Pfaint);font-size:11px;letter-spacing:.06em}
 </style>
 </head>
 <body>
-<!-- roundel, defined once -->
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
-<symbol id="r76" viewBox="0 0 200 200">
-  <clipPath id="rc"><circle cx="100" cy="100" r="87.8"/></clipPath>
-  <circle cx="100" cy="100" r="94" fill="none" stroke="#FF4D00" stroke-width="12.4"/>
-  <circle cx="100" cy="100" r="87.8" fill="#0C0B0A"/>
-  <path d="M141.7 6.2 L162.2 15.5 L58.3 193.8 L37.8 184.5 Z" fill="#FF4D00" clip-path="url(#rc)"/>
-  <text x="65" y="91" font-family="Barlow Condensed, sans-serif" font-size="68" font-weight="800" font-style="italic" text-anchor="middle" fill="#F5F0EA">7</text>
-  <text x="135" y="169" font-family="Barlow Condensed, sans-serif" font-size="68" font-weight="800" font-style="italic" text-anchor="middle" fill="#F5F0EA">6</text>
-</symbol></defs></svg>
-
 <nav class="nav">
   <div class="shell">
-    <a class="brand" href="#top"><svg viewBox="0 0 200 200"><use href="#r76"/></svg><b>7/6 MARKETING</b></a>
+    <a class="brand" href="#top">7/6<i>Marketing</i></a>
     <ul>
-      <li><a href="#floor">The show floor</a></li>
-      <li><a href="#what">What we do</a></li>
-      <li><a href="#services">Services</a></li>
+      <li><a href="#floor">The floor</a></li>
+      <li><a href="#buyer">The buyer</a></li>
+      <li><a href="#phases">What we do</a></li>
       <li><a href="#who">Who we are</a></li>
     </ul>
     <a class="cta" href="#contact">Start a conversation</a>
@@ -182,10 +233,11 @@ footer small{color:var(--Pfaint);font-size:11px;letter-spacing:.06em}
   <div class="shell">
     <p class="kicker mono">US market entry for material manufacturers</p>
     <h1>You make it.<br>We make America <em>want it</em>.</h1>
-    <p>Brand, packaging, data sheets, samples, certified testing and demand. Everything a manufacturer needs to land in the United States, built by people who have sold into this market for twenty one years.</p>
+    <p class="cred"><b>Twenty one years inside American wide format</b>, on both sides of the table. We have specified material from overseas factories and sold it to American converters.</p>
+    <p class="sub">Now we build the whole package a manufacturer needs to land here. Brand, packaging, data sheets, samples, certified testing and demand.</p>
     <div class="acts">
       <a class="btn btn-p" href="#contact">Start a conversation</a>
-      <a class="btn btn-s" href="#floor">Why nobody stops at your booth</a>
+      <a class="btn btn-s" href="#phases">What that includes</a>
     </div>
   </div>
 </header>
@@ -200,34 +252,68 @@ footer small{color:var(--Pfaint);font-size:11px;letter-spacing:.06em}
 <section id="floor">
   <div class="shell sec-pad">
     <div class="eyerow"><span class="n">01</span><span class="l mono">The show floor</span></div>
-    <h2>The booth was never the problem.</h2>
-    <p class="lead">You already spend upward of thirty thousand dollars to stand in a hall for three days. Space, build, freight, drayage, flights, shipping the rolls home again. And the buyers walking past are not walking past because the booth is too small.</p>
-    <p class="lead" style="margin-top:16px">They are walking past because what is on the table looks like everything else on the table. A swatch they have held before, in a box they cannot tell from the next one, beside a sheet that does not answer the question they came to ask.</p>
+    <h2>A booth gets you noticed. The table is what gets remembered.</h2>
+    <p class="lead">Space, build, freight, drayage, flights, and the samples shipped home again. A trade show is the most expensive attention in this industry, and it ends Friday afternoon.</p>
+    <p class="lead" style="margin-top:16px">What decides whether anyone follows up is the thing they picked up while they were standing there. The swatch. The box it came in. The sheet they took back to the office and put on a desk.</p>
 
     <div class="split">
       <div class="sp">
-        <span class="sp-k">Same budget</span>
+        <span class="sp-k">The booth</span>
         <b>Three days</b>
-        <p>A booth is rented attention. It ends Friday afternoon and you ship the samples home in the same cases they arrived in.</p>
+        <p>Rented attention. It ends Friday and the samples go home in the cases they arrived in.</p>
       </div>
       <div class="sp accent">
-        <span class="sp-k">Same budget</span>
+        <span class="sp-k">What's on it</span>
         <b>Every day after</b>
-        <p>A brand, a box, a data sheet, a swatch book and a set of certified settings work in every email, every distributor meeting and every show you attend from then on.</p>
+        <p>A brand, a box, a data sheet and a swatch book keep working in every email, every distributor meeting and every show after this one.</p>
       </div>
     </div>
-    <p class="lead" style="margin-top:26px">Keep exhibiting. Just stop letting the booth be the whole budget, and give the people who do stop at it something worth remembering. A designed booth and an undesigned one cost about the same to build. The only difference is whether anyone thought about it first.</p>
+
+    <p class="lead" style="margin-top:26px">Keep exhibiting. We will help make the stand look American too, and a designed booth costs about the same to build as an undesigned one. But the budget that changes your year is the one that goes into what you hand people.</p>
+
+    <figure class="shot" style="margin-top:30px">
+      <img src="booth-temp.webp" alt="A large, professionally built trade show stand with clear product category signage and an open layout.">
+      <b class="temp">Temp</b>
+      <figcaption>Placeholder image &middot; third-party booth, not cleared &middot; replace before launch</figcaption>
+    </figure>
   </div>
 </section>
 
-<section id="what">
+<section id="buyer">
   <div class="shell sec-pad">
-    <div class="eyerow"><span class="n">02</span><span class="l mono">The opportunity</span></div>
+    <div class="eyerow"><span class="n">02</span><span class="l mono">The buyer</span></div>
     <h2>What the American buyer wants is knowable.</h2>
-    <p class="lead">Before anyone tests your material they have already read the data sheet, held the swatch and looked at the box. Those three things decide whether a distributor stocks you. All three are fixable, and none of them require changing your product.</p>
+    <p class="lead">The first question is which buyer. A distributor and an end user want different things from the same roll, and most manufacturers arriving here have not chosen between them. Answer that and everything downstream gets easier. Skip it and you are aimed at nobody.</p>
+
+    <div class="chan">
+      <div>
+        <span class="k">A</span>
+        <h3>Through distribution</h3>
+        <ul>
+          <li>Margin that survives two hands</li>
+          <li>A line that sells itself off a shelf</li>
+          <li>Sample support their reps can carry</li>
+          <li>A data sheet they can forward without rewriting</li>
+          <li>Confidence you will not undercut them direct</li>
+        </ul>
+      </div>
+      <div>
+        <span class="k">B</span>
+        <h3>Direct to market</h3>
+        <ul>
+          <li>Settings that work on the printer in their shop</li>
+          <li>A brand an installer is willing to try</li>
+          <li>Packaging that survives a freight carrier</li>
+          <li>Someone in this country to call</li>
+          <li>Short rolls, not just full masters</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="lead" style="margin-top:30px">Both of them read the same data sheet, and both of them read it in about four seconds.</p>
 
     <div class="spec">
-      <div class="spec-h"><b>What a US data sheet has to answer</b><span class="mono">Typical distributor checklist</span></div>
+      <div class="spec-h"><b>What a US data sheet has to answer</b><span class="mono">Before anyone calls you</span></div>
       <div class="spec-g">
         <div><dt>Shelf life</dt><dd>24 months</dd></div>
         <div><dt>Peel strength</dt><dd>2.4 lbs/in</dd></div>
@@ -238,83 +324,96 @@ footer small{color:var(--Pfaint);font-size:11px;letter-spacing:.06em}
         <div><dt>Service life</dt><dd>3 yr vertical</dd></div>
         <div><dt>Certified on</dt><dd>Solvent · Eco · UV</dd></div>
       </div>
-      <div class="spec-f">Most sheets arriving from overseas answer two or three of these. We answer all of them, with our own test data behind every number.</div>
+      <div class="spec-f">Top three reasons to buy at the top. Everything else underneath. No paragraphs, nothing important hiding on page two.</div>
     </div>
   </div>
 </section>
 
-<section id="services">
-  <div class="shell sec-pad">
-    <div class="eyerow"><span class="n">03</span><span class="l mono">Scope</span></div>
-    <h2>Six things, in the order they have to happen.</h2>
-    <p class="lead">You can buy any one of them on its own. Most manufacturers need the sequence.</p>
+<section id="phases">
+  <div class="shell sec-pad" style="padding-bottom:52px">
+    <div class="eyerow"><span class="n">03</span><span class="l mono">What we do</span></div>
+    <h2>Four phases. You can buy one. Most need the sequence.</h2>
+    <p class="lead">Roughly in this order, though the middle two overlap in practice. You cannot sell a brand you have not built, and you cannot build proof for a product nobody has named.</p>
+  </div>
+</section>
 
-    <div class="svc">
-      <div class="svc-i">
-        <div class="num">01</div>
-        <div><h3>Brand</h3></div>
-        <div class="body">
-          <p>A name and an identity an American distributor will put on a shelf, and a product line that reads as a range instead of a catalogue.</p>
-          <ul class="tags"><li>Naming</li><li>Identity</li><li>Product line architecture</li><li>Packaging design</li><li>Box print</li></ul>
-        </div>
+<div class="hs" id="hs">
+  <div class="hs-stick">
+    <div class="hs-bar-row"><div class="inner">
+      <div class="hs-idx" id="hsIdx">
+        <button type="button" data-i="0">01 Brand</button>
+        <button type="button" data-i="1">02 Proof</button>
+        <button type="button" data-i="2">03 Selling</button>
+        <button type="button" data-i="3">04 Keeping it</button>
       </div>
-      <div class="svc-i">
-        <div class="num">02</div>
-        <div><h3>Proof</h3></div>
-        <div class="body">
-          <p>We run your material on solvent, eco solvent and UV, publish the settings, and write the data sheet in the language a US buyer already trusts. Your customer gets set up for success before they open the roll.</p>
-          <ul class="tags"><li>Material testing</li><li>Certified print settings</li><li>Color profiles</li><li>Data sheets</li><li>Spec writing</li></ul>
-        </div>
-      </div>
-      <div class="svc-i">
-        <div class="num">03</div>
-        <div><h3>Samples</h3></div>
-        <div class="body">
-          <p>The object that sits on a desk and gets picked up. Swatch books, sample rolls and kits sized the way American shops actually order, not the way a factory likes to cut.</p>
-          <ul class="tags"><li>Swatch books</li><li>Sample rolls</li><li>Sample kits</li><li>Print samples</li><li>Trade show table kits</li><li>Sizing strategy</li></ul>
-        </div>
-      </div>
-      <div class="svc-i">
-        <div class="num">04</div>
-        <div><h3>Demand</h3></div>
-        <div class="body">
-          <p>Once the material is credible, people have to see it. Launches, film, social and email, plus real installers testing the product on real jobs and saying so publicly.</p>
-          <ul class="tags"><li>Website</li><li>Product launches</li><li>Video and YouTube</li><li>Social</li><li>Email</li><li>Installer testimonials</li></ul>
-        </div>
-      </div>
-      <div class="svc-i">
-        <div class="num">05</div>
-        <div><h3>Distribution</h3></div>
-        <div class="body">
-          <p>Where to hold stock, who to sell through, and how the American channel really behaves. This is the part that is almost impossible to learn from outside it.</p>
-          <ul class="tags"><li>Warehouse strategy</li><li>Distributor introductions</li><li>Channel structure</li><li>Pricing position</li></ul>
-        </div>
-      </div>
-      <div class="svc-i">
-        <div class="num">06</div>
-        <div><h3>The floor</h3></div>
-        <div class="body">
-          <p>Everything above, at full scale, in the one place a buyer touches all of it at once. We design the stand and the graphics; an American exhibit house builds, ships and installs it. You are not paying more for the booth, you are paying the same and getting one somebody designed.</p>
-          <ul class="tags"><li>Booth design</li><li>Booth graphics</li><li>Sample displays</li><li>Signage</li><li>Build-to-print packages</li><li>Show to show updates</li></ul>
-        </div>
+      <div class="hs-bar"><i id="hsBar"></i></div>
+    </div></div>
+
+    <div class="hs-rail">
+      <div class="hs-track" id="hsTrack">
+
+        <article class="ph">
+          <div class="ph-l">
+            <div class="pn">01</div>
+            <h3>Brand</h3>
+            <p>Who you are before anyone has touched the product. A name an American distributor will stock, a look that belongs on a shelf here, and a line that reads as a range instead of a catalogue.</p>
+          </div>
+          <div class="ph-r"><span class="lbl">What you get</span>
+            <ul><li>Naming</li><li>Identity and logo</li><li>Product line architecture</li><li>Packaging design</li><li>Box print</li><li>Positioning</li></ul>
+          </div>
+        </article>
+
+        <article class="ph">
+          <div class="ph-l">
+            <div class="pn">02</div>
+            <h3>Proof</h3>
+            <p>The work that makes the claims true. We run your material on solvent, eco solvent and UV, publish the settings, and put the numbers in a sheet a US buyer already trusts. Then we make the thing that sits on their desk.</p>
+          </div>
+          <div class="ph-r"><span class="lbl">What you get</span>
+            <ul><li>Material testing, three printer classes</li><li>Certified print settings</li><li>Color profiles</li><li>Data sheets</li><li>Swatch books</li><li>Sample rolls and kits</li></ul>
+          </div>
+        </article>
+
+        <article class="ph">
+          <div class="ph-l">
+            <div class="pn">03</div>
+            <h3>Selling</h3>
+            <p>Now people have to see it. Direct, through distribution, or both, depending on what you decided earlier. This is also where the booth lives. We design it and an American exhibit house builds it.</p>
+          </div>
+          <div class="ph-r"><span class="lbl">What you get</span>
+            <ul><li>Website and email</li><li>Product launches</li><li>Video and social</li><li>Installer testing and testimonials</li><li>Distributor introductions</li><li>Warehouse strategy</li><li>Booth and graphics</li></ul>
+          </div>
+        </article>
+
+        <article class="ph hot">
+          <div class="ph-l">
+            <div class="pn">04</div>
+            <h3>Keeping it</h3>
+            <p>A launch is a moment. A brand is a habit. Most of the value shows up in year two, when the content keeps coming, the next product lands properly, and the stand does not look like last year's.</p>
+          </div>
+          <div class="ph-r"><span class="lbl">What you get</span>
+            <ul><li>Ongoing content</li><li>New product launches</li><li>Show to show updates</li><li>Channel management</li><li>Data sheet revisions</li><li>Monthly retainer</li></ul>
+          </div>
+        </article>
+
       </div>
     </div>
   </div>
-</section>
+</div>
 
 <section id="who" class="light">
   <div class="shell sec-pad">
     <div class="eyerow"><span class="n">04</span><span class="l mono">Who we are</span></div>
     <div class="who">
       <div>
-        <h2>Twenty one years inside American wide format.</h2>
-        <p class="lead">We have specified material from overseas factories and we have sold it to American converters, which means we have watched this exact problem from both sides. We know what makes a distributor say yes, what makes an installer switch brands, and what makes a buyer quietly put a sample back in the box.</p>
+        <h2>We have been on both sides of this.</h2>
+        <p class="lead">Twenty one years inside American wide format. We have specified material from overseas factories and we have sold it to American converters, which means we have watched this exact problem from both ends. We know what makes a distributor say yes, what makes an installer switch brands, and what makes a buyer quietly put a sample back in the box.</p>
         <p class="lead" style="margin-top:16px">Two people. You work with both of us, on everything, the whole way through.</p>
       </div>
       <div class="facts">
         <div><b>21</b><span>Years in US wide format</span></div>
         <div><b>3</b><span>Printer classes certified</span></div>
-        <div><b>6</b><span>Service stages, one team</span></div>
+        <div><b>4</b><span>Phases, one team</span></div>
         <div><b>1</b><span>Market we know cold</span></div>
       </div>
     </div>
@@ -325,7 +424,7 @@ footer small{color:var(--Pfaint);font-size:11px;letter-spacing:.06em}
   <div class="shell sec-pad">
     <div class="eyerow"><span class="n">05</span><span class="l mono">Next step</span></div>
     <h2>Send us your worst data sheet.</h2>
-    <p>We will rewrite one page of it and show you the difference, before you commit to anything. That conversation is the fastest way to see whether we are useful to you.</p>
+    <p>We will rewrite one page of it and show you the difference, before you commit to anything. That conversation is the fastest way to find out whether we are useful to you.</p>
     <div class="lines">
       <a href="mailto:contact@sevensixmarketing.com">contact@sevensixmarketing.com</a>
       <a href="tel:+19495297690">+1 (949) 529-7690</a>
@@ -335,9 +434,68 @@ footer small{color:var(--Pfaint);font-size:11px;letter-spacing:.06em}
 
 <footer>
   <div class="shell">
-    <div class="fb"><svg viewBox="0 0 200 200"><use href="#r76"/></svg><b>7/6 MARKETING</b></div>
+    <div class="fb">7/6</div>
     <small>sevensixmarketing.com &nbsp;·&nbsp; Los Angeles, California &nbsp;·&nbsp; The date is written the American way.</small>
   </div>
 </footer>
+
+<script>
+(function(){
+  var BREAK=900, HOLD=0.09, wrap=document.getElementById('hs'), track=document.getElementById('hsTrack'),
+      bar=document.getElementById('hsBar'), idx=document.getElementById('hsIdx'),
+      rail=wrap.querySelector('.hs-rail'),
+      btns=[].slice.call(idx.querySelectorAll('button')),
+      panels=[].slice.call(track.querySelectorAll('.ph')),
+      travel=0, on=false, ticking=false;
+
+  function pinnable(){
+    return window.innerWidth>=BREAK &&
+           !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  }
+  function layout(){
+    on=pinnable();
+    if(!on){wrap.classList.add('off');wrap.style.height='';track.style.transform='';
+            panels.forEach(function(p){p.classList.remove('dim')});return}
+    wrap.classList.remove('off');
+    travel=Math.max(0, track.scrollWidth - rail.clientWidth + 24);
+    wrap.style.height=(window.innerHeight + (travel*0.92)/(1-2*HOLD))+'px';
+    update();
+  }
+  function update(){
+    if(!on)return;
+    var total=wrap.offsetHeight-window.innerHeight; if(total<=0)return;
+    var p=(-wrap.getBoundingClientRect().top)/total;
+    p=p<0?0:p>1?1:p;
+    // hold at both ends so the first and last panel each get a beat
+    var q=(p-HOLD)/(1-2*HOLD); q=q<0?0:q>1?1:q;
+    track.style.transform='translate3d('+(-q*travel).toFixed(1)+'px,0,0)';
+    bar.style.transform='scaleX('+q.toFixed(4)+')';
+    var mid=window.innerWidth/2;
+    panels.forEach(function(el){
+      var r=el.getBoundingClientRect();
+      el.classList.toggle('dim', (r.left>mid) || (r.right<mid*0.45));
+    });
+    var cur=Math.min(btns.length-1, Math.round(q*(btns.length-1)));
+    btns.forEach(function(b,k){b.classList.toggle('on',k===cur)});
+  }
+  function onScroll(){ if(ticking)return; ticking=true;
+    requestAnimationFrame(function(){update();ticking=false}) }
+
+  btns.forEach(function(b){
+    b.addEventListener('click',function(){
+      var k=+b.dataset.i, n=btns.length-1;
+      if(on){ var total=wrap.offsetHeight-window.innerHeight,
+              t=(HOLD+(k/n)*(1-2*HOLD))*total;
+        window.scrollTo({top:wrap.offsetTop+t,behavior:'smooth'}) }
+      else { var el=panels[k]; if(el) el.scrollIntoView({behavior:'smooth',inline:'start',block:'nearest'}) }
+    });
+  });
+
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',layout);
+  window.addEventListener('load',layout);
+  layout();
+})();
+</script>
 </body>
 </html>
